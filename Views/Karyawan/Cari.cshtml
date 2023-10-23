@@ -1,0 +1,19 @@
+﻿<h1>Cari Data</h1>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <from asp-action="HasilPencarian">
+            <div> asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="from-group">
+                <label for="KataKunci" class="control-label">Ketik Nama</label>
+                <input name="KataKunci" class="from-control"/>
+            </div>
+            <div class="from-group">
+                <input type="submit" value="Cari" class="btn-dark"/>
+            </div>
+        </from>
+        </div>
+    </div>
+    <div>
+        <a asp-action="Index">Kembali</a>
+    </div>
